@@ -128,7 +128,7 @@ public partial class App : Application, IDisposable
             {
                 message.Append(
                     CultureInfo.InvariantCulture,
-                    $"Unable to parse one or more more properties from the config file at {s_configPath}.\n\n"
+                    $"Unable to parse one or more properties from the config file at {s_configPath}.\n\n"
                 );
             }
 
@@ -179,7 +179,7 @@ public partial class App : Application, IDisposable
     {
         if (!File.Exists(s_configPath))
         {
-            // It is important to use specify the owner of the message box or it will be closed
+            // It is important to specify the owner of the message box or it will be closed
             // when the context menu is closed.
             // See https://github.com/hardcodet/wpf-notifyicon/issues/74 for more information.
             MessageBox.Show(

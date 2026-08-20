@@ -2,7 +2,7 @@
 
 namespace TotalMixVC.Configuration;
 
-/// <summary>Provides configuration related the behaviour of the widget user interface.</summary>
+/// <summary>Provides configuration related to the behaviour of the widget user interface.</summary>
 public record Interface
 {
     /// <summary>

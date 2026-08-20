@@ -4,7 +4,7 @@
 # defaults.
 #
 # Colors may be specified as regular color names such as "blue", along with hex colors with RGB or
-# ARGB components (note that the alpha channel needs to be first if you ant transparency).
+# ARGB components (note that the alpha channel needs to be first if you want transparency).
 
 [osc]
 # The address and port that TotalMix Volume Control should send to. TotalMixFX listens on 0.0.0.0
